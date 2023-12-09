@@ -1195,7 +1195,7 @@ body {
    */
 
   .hero {
-    background-image: url("../images/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -1361,7 +1361,7 @@ body {
   .navbar > .logo,
   .navbar-link > ion-icon { display: none; }
 
-  .header { padding-block: 25px; }
+  .header { padding-block: 25px; background-color: #0000005e;}
 
   .lang-switch {
     position: relative;
